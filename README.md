@@ -29,7 +29,8 @@ gnome-session &
 
 6. Setup tunnel to instance
 ```
-ssh -L 5901:localhost:5901 -i ~/bin/keys/key.pem ubuntu@[hostname]
+$ ssh -L 5901:localhost:5901 -i ~/bin/keys/key.pem ubuntu@[hostname]
+$ vncserver -geometry 1340x750
 ```
 
 7. Connect to vnc://localhost:5901 using a VNC client
